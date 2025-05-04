@@ -4,13 +4,6 @@ namespace Tutorial6;
 
 public static class Database
 {
-    public static List<Test> Tests = new List<Test>()
-    {
-        new Test() { Id = 1, Name = "Test1" },
-        new Test() { Id = 2, Name = "Test2" },
-        new Test() { Id = 3, Name = "Test3" }
-    };
-
     public static List<Animal> Animals = new List<Animal>()
     {
         new Animal() { Id = 1, Name = "Garfield", Category = "Cat", Weight = 10, Color = "orange" },
